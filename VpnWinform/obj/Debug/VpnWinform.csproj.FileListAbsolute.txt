@@ -13,3 +13,18 @@ C:\Users\farya\Desktop\VpnWinform\VpnWinform\bin\Debug\MaterialSkin.dll
 C:\Users\farya\Desktop\VpnWinform\VpnWinform\obj\Debug\VpnWinform.csproj.CopyComplete
 C:\Users\farya\Desktop\VpnWinform\VpnWinform\bin\Debug\System.Data.SQLite.dll
 C:\Users\farya\Desktop\VpnWinform\VpnWinform\bin\Debug\System.Data.SQLite.xml
+C:\Users\farya\Desktop\project manager\VpnWinform\bin\Debug\VpnWinform.exe.config
+C:\Users\farya\Desktop\project manager\VpnWinform\bin\Debug\VpnWinform.exe
+C:\Users\farya\Desktop\project manager\VpnWinform\bin\Debug\VpnWinform.pdb
+C:\Users\farya\Desktop\project manager\VpnWinform\bin\Debug\MaterialSkin.dll
+C:\Users\farya\Desktop\project manager\VpnWinform\bin\Debug\System.Data.SQLite.dll
+C:\Users\farya\Desktop\project manager\VpnWinform\bin\Debug\System.Data.SQLite.xml
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.csproj.AssemblyReference.cache
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.csproj.SuggestedBindingRedirects.cache
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.Form1.resources
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.Properties.Resources.resources
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.csproj.GenerateResource.cache
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.csproj.CoreCompileInputs.cache
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.csproj.CopyComplete
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.exe
+C:\Users\farya\Desktop\project manager\VpnWinform\obj\Debug\VpnWinform.pdb

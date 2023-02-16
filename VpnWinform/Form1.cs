@@ -99,6 +99,7 @@ namespace VpnWinform
         {
             string data = "Ok";
             int indexOfYourColumn = 1;
+            Work_Project_Name_TextBox.Items.Clear();
             foreach (DataGridViewRow row in Project_List.Rows)
             {
                 data = (string)row.Cells[indexOfYourColumn].Value;
@@ -124,6 +125,7 @@ namespace VpnWinform
                 string txtQuery = "insert into Project (Name, Deadline, Description)values('" + Project_Name_TextBox.Text + "','" + Project_Deadline_TextBox.Text + "','" + Project_Description_TextBox.Text + "')";
                 ExecuteQuery(txtQuery);
                 LoadDataProject();
+                GetProjectNames();
             } else
             {
                 MessageBox.Show("Name or Deadline is empty");
@@ -147,10 +149,29 @@ namespace VpnWinform
 
         private void Delete_Report_Btn_Click(object sender, EventArgs e)
         {
-            string txtQuery = "delete from Report where Id='" + Report_List.SelectedRows[0].Cells[0].Value + "'";
-            ExecuteQuery(txtQuery);
-            LoadDataReport();
+            if(Report_List.SelectedRows.Count > 0)
+            {
+                string txtQuery = "delete from Report where Id='" + Report_List.SelectedRows[0].Cells[0].Value + "'";
+                ExecuteQuery(txtQuery);
+                LoadDataReport();
+            } else
+            {
+                MessageBox.Show("Row is not selected!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+            if(Project_List.SelectedRows.Count > 0)
+            {
+                string txtQuery = "delete from Project where Id='" + Project_List.SelectedRows[0].Cells[0].Value + "'";
+                ExecuteQuery(txtQuery);
+                LoadDataProject();
+                GetProjectNames();
+            } else
+            {
+                MessageBox.Show("Row is not selected!","Error", MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            }
+        }
     }
 }

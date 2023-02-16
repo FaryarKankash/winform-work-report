@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\VpnWinform"
   ],
-  "SelectedNode": "\\projectManager.sln",
+  "SelectedNode": "\\VpnWinform\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
